@@ -25,5 +25,5 @@ For the purpose of this problem, we will return 0 when `needle` is an empty stri
 </code></pre>
 
 **Constraints:**
-* <pre><code>0 <= haystack.length, needle.length <= 5 * 10<sup>4</sup</code></pre>
+* <pre><code>0 <= haystack.length, needle.length <= 5 * 10<sup>4</sup></code></pre>
 * `haystack` and `needle` consist of only lower-case English characters.
