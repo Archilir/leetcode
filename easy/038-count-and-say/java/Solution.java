@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 class Solution {
     Solution() {}
 
