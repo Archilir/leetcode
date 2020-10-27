@@ -8,7 +8,7 @@ To determine how you "say" a digit string, split it into the **minimal** number 
 
 For example, the saying and conversion for digit string `"3322251"`:
 
-<img src="https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg"
+<img src="https://assets.leetcode.com/uploads/2020/10/23/countandsay.jpg">
 
 Given a positive integer `n`, return *the* `nth` term of the **count-and-say** sequence.
 
