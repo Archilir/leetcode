@@ -3,6 +3,7 @@ class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int sum = 0;
+        int offset = 0;
         ListNode end = new ListNode();
         ListNode pointer = end;
         while (l1 != null || l2 != null) {
@@ -18,25 +19,24 @@ class Solution {
             }
 
             if (sum > 9) {
-                pointer.val = pointer.val + sum % 10;
-                if (pointer.val > 9) {
-                    pointer.val = pointer.val % 10;
-                    pointer.next = new ListNode(2);
-                } else {
-                    pointer.next = new ListNode(1);
-                }
-                pointer = pointer.next;
+                sum = sum % 10;
+                offset = 1;
             } else {
-                pointer.val = pointer.val + sum;
-                if (pointer.val > 9) {
-                    pointer.val = pointer.val % 10;
-                    pointer.next = new ListNode(1);
-                }
-                else if (l1 != null || l2 != null){
-                    pointer.next = new ListNode(0);
-                }
-                pointer = pointer.next;
+                offset = 0;
             }
+
+            pointer.val = pointer.val + sum;
+            if (pointer.val > 9) {
+                pointer.val = pointer.val % 10;
+                pointer.next = new ListNode(1 + offset);
+            }
+            else if (offset == 1){
+                pointer.next = new ListNode(offset);
+            }
+            else if (l1 != null || l2 != null){
+                pointer.next = new ListNode(offset);
+            }
+            pointer = pointer.next;
         }
 
         return end;
