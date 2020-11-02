@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class LongestSubstringWithoutRepeatingCharactersTest {
+public class StringToIntegerAtoiTest {
     LongestSubstringWithoutRepeatingCharacters solution;
     @Before
     public void setUp() throws Exception {
