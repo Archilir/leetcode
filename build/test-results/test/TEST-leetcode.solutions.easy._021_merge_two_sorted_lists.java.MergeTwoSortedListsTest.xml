@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="leetcode.solutions.easy._021_merge_two_sorted_lists.java.MergeTwoSortedListsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-02T20:47:58" hostname="ctkit" time="0.007">
-  <properties/>
-  <testcase name="case3_equals" classname="leetcode.solutions.easy._021_merge_two_sorted_lists.java.MergeTwoSortedListsTest" time="0.006"/>
-  <testcase name="case1_equals" classname="leetcode.solutions.easy._021_merge_two_sorted_lists.java.MergeTwoSortedListsTest" time="0.0"/>
-  <testcase name="case2_equals" classname="leetcode.solutions.easy._021_merge_two_sorted_lists.java.MergeTwoSortedListsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
