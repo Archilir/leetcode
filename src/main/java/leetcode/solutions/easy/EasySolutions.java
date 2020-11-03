@@ -15,6 +15,7 @@ import leetcode.solutions.easy._069_sqrt_x.java.SqrtX;
 import leetcode.solutions.easy._021_merge_two_sorted_lists.java.MergeTwoSortedLists;
 import leetcode.solutions.easy._058_length_of_last_word.java.LengthOfLastWord;
 import leetcode.generic.Loader;
+import leetcode.solutions.easy._083_remove_duplicates_from_sorted_list.java.RemoveDuplicatesFromSortedList;
 
 public class EasySolutions extends Loader {
     public EasySolutions() {
@@ -33,5 +34,6 @@ public class EasySolutions extends Loader {
         add(new LengthOfLastWord());
         add(new PlusOne());
         add(new SqrtX());
+        add(new RemoveDuplicatesFromSortedList());
     }
 }
